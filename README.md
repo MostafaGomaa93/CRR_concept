@@ -5,7 +5,7 @@ The available water depends on the conceptualization of the study area, but main
  
 Figure 1. Schematic diagram of the CRR concept showing: (a) it’s three components (highlighted by the dash-line purple large circle); the two components surrounded by green dash-line rectangles are grouped as RE^e (total evaporated water), while the two components surrounded by red dash-line rectangles are grouped as RE^i (total re-infiltrated water), and the two surrounded by blue dash-line rectangles are grouped as RE^s (total direct runoff). P_e is the effective precipitation (precipitation – canopy interception), I is the initial amount of water infiltrated into the subsurface, and d_surf is the surface depth – a user-specified depth relative to the land surface where the groundwater exfiltration starts; (b) the mathematical design.\
 
-**Flow fraction (α_(i,j)) calculations**
+**Flow fraction (α_(i,j)) calculations**\
 The flow fraction (α_(i,j)) from a cell i to the neighbouring cell j is calculated as follows:
 
 <p align="center">
