@@ -5,10 +5,8 @@ The available water depends on the conceptualization of the study area, but main
  
 Figure 1. Schematic diagram of the CRR concept showing: (a) it’s three components (highlighted by the dash-line purple large circle); the two components surrounded by green dash-line rectangles are grouped as RE^e (total evaporated water), while the two components surrounded by red dash-line rectangles are grouped as RE^i (total re-infiltrated water), and the two surrounded by blue dash-line rectangles are grouped as RE^s (total direct runoff). P_e is the effective precipitation (precipitation – canopy interception), I is the initial amount of water infiltrated into the subsurface, and d_surf is the surface depth – a user-specified depth relative to the land surface where the groundwater exfiltration starts; (b) the mathematical design.
 
-Flow fraction (α_(i,j)) calculations
+**Flow fraction (α_(i,j)) calculations**
 The flow fraction (α_(i,j)) from a cell i to the neighbouring cell j is calculated as follows:
-
-![plot](https://github.com/MostafaGomaa93/CRR_concept/blob/main/images/CRR%20equation.png)
 
 <p align="center">
   <img src="https://github.com/MostafaGomaa93/CRR_concept/blob/main/images/CRR%20equation.png" />
@@ -21,14 +19,15 @@ Considering cell i surrounded by m-number of j-cells – so also the m-number of
   <img src="https://github.com/MostafaGomaa93/CRR_concept/blob/main/images/CRR%20alphas%20example.png" />
 </p>
 
-
 Figure 2. Example of the CRR concept showing the flow fractions (α_(i,j)) from one Upslope cell to the neighbouring downslope cells
-Applying in MODFLOW 6
+
+**Applying in MODFLOW 6**
 The CRR is applied to MODFLOW 6 through the MOVER (MVR) package (Morway et al., 2021). The MVR package allows moving water from a feature in one package as a provider to a feature in the same package or in another package as a receiver. There are four different options for controlling such water movement (Langevin et al., 2017), the CRR concept uses the “FACTOR” option to control the transfer of available water (RI + Exf_gw) from the upslope UZF cells’ providers, within a given time step, to the adjacent downslope feature(s) (receivers), where that water can be: (i) evaporated (RE^e) and/or transferred downslope to be either (ii) reinfiltrated back to subsurface (RE^i) if the adjacent feature(s) represent UZF cell(s) – not fully saturated yet, or (iii) discharged as direct runoff (RE^s) into a stream, to contribute to streamflow, if the adjacent feature(s) represent SFR reach(es).
-Inputs
+
+**Inputs**
 As shown in Equation 1, the inputs for applying the CRR concept are the following:
 	Elevation of every model cell.
-	The neighboring cells to each cell.
+	The neighbouring cells to each cell.
 	Distance from the cell to each of its neighbouring cells.
 All the above inputs can be retrieved from the discretization file and converting it to a shapefile. The notebooks in this repo show some examples of the CRR concept with different discretization packages (DIS, DISV, and DISU) of the MODFLOW 6 model.
 
