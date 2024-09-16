@@ -19,12 +19,12 @@ Considering cell i surrounded by m-number of j-cells – so also the m-number of
   <img src="https://github.com/MostafaGomaa93/CRR_concept/blob/main/images/CRR%20alphas%20example.png" />
 </p>
 
-Figure 2. Example of the CRR concept showing the flow fractions (α_(i,j)) from one Upslope cell to the neighbouring downslope cells\
+Figure 2. Example of the CRR concept showing the flow fractions (α_(i,j)) from one Upslope cell to the neighbouring downslope cells.\
 
-**Applying in MODFLOW 6**
+**Applying in MODFLOW 6**\
 The CRR is applied to MODFLOW 6 through the MOVER (MVR) package (Morway et al., 2021). The MVR package allows moving water from a feature in one package as a provider to a feature in the same package or in another package as a receiver. There are four different options for controlling such water movement (Langevin et al., 2017), the CRR concept uses the “FACTOR” option to control the transfer of available water (RI + Exf_gw) from the upslope UZF cells’ providers, within a given time step, to the adjacent downslope feature(s) (receivers), where that water can be: (i) evaporated (RE^e) and/or transferred downslope to be either (ii) reinfiltrated back to subsurface (RE^i) if the adjacent feature(s) represent UZF cell(s) – not fully saturated yet, or (iii) discharged as direct runoff (RE^s) into a stream, to contribute to streamflow, if the adjacent feature(s) represent SFR reach(es).\
 
-**Inputs**
+**Inputs**\
 As shown in Equation 1, the inputs for applying the CRR concept are the following:
 	Elevation of every model cell.
 	The neighbouring cells to each cell.
