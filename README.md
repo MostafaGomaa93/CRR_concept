@@ -14,7 +14,7 @@ where S_(i,j)=((elv_i-elv_j))⁄l_ij  is the slope gradient between the center c
 Considering cell i surrounded by m-number of j-cells – so also the m-number of cell connections each described by S_(i,j) – there are three possible flow scenarios: (1) if among all m-connections around i-cell, only one S_(i,j) is positive (the elevation of the i-cell is higher than the elevation of only one connected j cell), while all the other S_(i,j) are negative (so they all will be considered as zero in the sum in the denominator of Eq. 1), then α_(i,j) = 1 representing the single flow direction (SFD); (2) if among all m-connections around i-cell, there are two or more positive S_(i,j), then corresponding individual α_(i,j) values will be within the range 0 < α_(i,j) < 1; and (3) if all m-connections around i-cell are negative S_(i,j), then that i-cell will be a sink cell where all the water will be evaporated.
 
 <p align="center">
-  <img src="[http://some_place.com/image.png](https://github.com/MostafaGomaa93/CRR_concept/blob/main/images/CRR%20alphas%20example.png" />
+  <img src="https://github.com/MostafaGomaa93/CRR_concept/blob/main/images/CRR%20alphas%20example.png" />
 </p>
 
 ![plot](https://github.com/MostafaGomaa93/CRR_concept/blob/main/images/CRR%20alphas%20example.png)
