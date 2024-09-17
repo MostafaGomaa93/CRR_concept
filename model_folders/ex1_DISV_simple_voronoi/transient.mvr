@@ -1,0 +1,44 @@
+# File created by hand from Mostafa's regional-scale model
+# Attempting to recreate mass budget error that occurs in MVR
+# using select cells.
+BEGIN  options
+  BUDGET  FILEOUT  mvr_reduced_budget.mvr          
+END  options          
+            
+BEGIN  dimensions          
+  MAXMVR  24
+  MAXPACKAGES  1
+END  dimensions          
+            
+BEGIN  packages          
+  UZF            
+END  packages          
+            
+BEGIN  period  1        
+  UZF   3   UZF   5   FACTOR   1.000
+  UZF   4   UZF   3   FACTOR   0.362
+  UZF   4   UZF   6   FACTOR   0.363
+  UZF   4   UZF   8   FACTOR   0.275
+  UZF   1   UZF   2   FACTOR   1.000
+  UZF   5   UZF   1   FACTOR   0.250
+  UZF   5   UZF   2   FACTOR   0.750
+  UZF   6   UZF   3   FACTOR   0.039
+  UZF   6   UZF   5   FACTOR   0.402
+  UZF   6   UZF   1   FACTOR   0.441
+  UZF   6   UZF   9   FACTOR   0.118
+  UZF   7   UZF   6   FACTOR   0.275
+  UZF   7   UZF   8   FACTOR   0.127
+  UZF   7   UZF   9   FACTOR   0.598
+  UZF   8   UZF   6   FACTOR   1.000
+  UZF   9   UZF   1   FACTOR   0.490
+  UZF   9   UZF  11   FACTOR   0.510
+  UZF  10   UZF   9   FACTOR   0.158
+  UZF  10   UZF  11   FACTOR   0.525
+  UZF  10   UZF  12   FACTOR   0.317
+  UZF  11   UZF   1   FACTOR   1.000
+  UZF  12   UZF  11   FACTOR   0.228
+  UZF  12   UZF   1   FACTOR   0.257
+  UZF  12   UZF   2   FACTOR   0.515
+END  period  1
+
+
