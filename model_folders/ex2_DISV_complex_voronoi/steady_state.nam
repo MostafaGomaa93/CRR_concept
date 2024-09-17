@@ -1,0 +1,18 @@
+BEGIN options
+  SAVE_FLOWS
+  NEWTON  UNDER_RELAXATION
+END options
+
+BEGIN packages
+  DISV6  steady_state.disv  disv
+  NPF6  steady_state.npf  npf
+  IC6  steady_state.ic  ic
+  STO6  steady_state.sto  sto
+  DRN6  steady_state.drn  drn_0
+  UZF6  steady_state.uzf  uzf
+  SFR6  steady_state.sfr  sfr
+  MVR6  steady_state.mvr  mvr
+  OC6  steady_state.oc  oc
+  OBS6  steady_state.obs  obs
+END packages
+

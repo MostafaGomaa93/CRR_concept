@@ -1,0 +1,15 @@
+BEGIN options
+  SAVE_FLOWS
+  SAVE_SPECIFIC_DISCHARGE
+END options
+
+BEGIN griddata
+  icelltype
+    CONSTANT  1
+  k  LAYERED
+    OPEN/CLOSE  'steady_state.npf_kh_lay1.txt'  FACTOR  1.0
+    OPEN/CLOSE  'steady_state.npf_kh_lay2.txt'  FACTOR  1.0
+  k33  LAYERED
+    OPEN/CLOSE  'steady_state.npf_kv_lay1.txt'  FACTOR  1.0
+    OPEN/CLOSE  'steady_state.npf_kv_lay2.txt'  FACTOR  1.0
+END griddata
