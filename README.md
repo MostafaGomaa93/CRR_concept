@@ -54,6 +54,7 @@ As shown in Equation 1, the inputs for applying the CRR concept are the followin
 - Elevation of every model cell.
 - The neighbouring cells to each cell.
 - Distance from the cell to each of its neighbouring cells.
+
 All the above inputs can be retrieved from the discretization file and converting it to a shapefile. The notebooks in this repo show some examples of the CRR concept with different discretization packages (DIS, DISV, and DISU) of the MODFLOW 6 model.
 
 ## Examples
