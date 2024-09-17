@@ -1,5 +1,5 @@
 # CRR Concept
-The CRR is the cascade routing and re-infiltration concept (Daoud et al., 2022; Daoud et al., 2024). The CRR routes the available water from the upslope areas to the adjacent downslope areas.
+The CRR is the cascade routing and re-infiltration concept (Daoud et al., 2022; Daoud et al., 2024). The CRR define the flow direction based on the slopes (gradient), then, it routes the available water from the upslope areas to the adjacent downslope areas.
 The available water depends on the conceptualization of the study area, but mainly, the available water can be the rejected infiltration (the amount of precipitation that will not infiltrate into the ground; RI) plus the groundwater exfiltration (the groundwater discharge to the land surface when the water table rises up or close to the land surface level; Exf<sub>gw</sub>). With applying the CRR concept, the available water can subsequently be (a) evaporated (RE<sup>e</sup>); (b) re-infiltrated back to the subsurface (RE<sup>i</sup>); or (c) discharged as direct runoff (RE<sup>s</sup>) into the nearest surface water body (e.g. streams or lakes).
 
 - The CRR is grid-based, designed mainly for use with the MODFLOW 6 groundwater model (Langevin et al., 2017), but can be applied to other similar grid-based models.
