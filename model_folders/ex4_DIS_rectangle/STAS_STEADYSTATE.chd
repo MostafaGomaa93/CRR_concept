@@ -1,0 +1,142 @@
+# CHD: Time-Variant Specified-Head package file created on 28-08-2024 by ModelMuse version 5.1.1.0.
+BEGIN OPTIONS
+    AUXILIARY IFACE
+    BOUNDNAMES
+    PRINT_INPUT
+    SAVE_FLOWS
+END OPTIONS
+
+BEGIN DIMENSIONS
+  MAXBOUND   127
+END DIMENSIONS
+
+BEGIN PERIOD      1
+     1    30     1  1.175848701477E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    30     2  1.175848701477E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    29     2  1.178555900574E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    29     3  1.160844200134E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    28     3  1.166003700256E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    28     4  1.166003700256E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    28     5  1.163752601624E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    27     5  1.172551300049E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    26     5  1.173551300049E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    26     6  1.172542800903E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    26     7  1.180091903687E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    25     7  1.206871803284E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    25     8  1.206871803284E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    25     9  1.215015762329E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    24     9  1.223892326355E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    24    10  1.241313713074E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    10  1.234199958801E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    11  1.273199958801E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    12  1.266286567688E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    13  1.254054222107E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    14  1.237607200623E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    15  1.235239402771E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    16  1.237112792969E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    17  1.240386291504E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    18  1.241757263184E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    19  1.243523086548E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    20  1.244310317993E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    21  1.250042739868E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    22  1.254264999390E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    23    23  1.253836238861E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    22    23  1.251892173767E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    21    23  1.247531646729E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    20    23  1.253531646729E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    20    24  1.249553749084E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    19    24  1.245920486450E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    18    24  1.245920486450E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    18    25  1.245920486450E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    17    25  1.264457656860E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    16    25  1.264457656860E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    16    26  1.254444869995E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    15    26  1.256444869995E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    15    27  1.267424358368E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    14    27  1.271441078186E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    14    28  1.271441078186E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    13    28  1.287991729736E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    12    28  1.287991729736E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    12    29  1.315538608551E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    12    30  1.315538608551E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    11    30  1.333880699158E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    10    30  1.340361968994E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1    10    31  1.340361968994E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     9    31  1.351192230225E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     9    32  1.351192230225E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     8    32  1.336965900421E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     8    33  1.336965900421E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     8    34  1.354232959747E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    34  1.361164886475E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    35  1.383577362061E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    35  1.383577362061E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    36  1.404184799194E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    37  1.404184799194E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    38  1.414310110092E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    39  1.407646450043E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    40  1.393062080383E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    41  1.369367670059E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    42  1.367729619980E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    43  1.367729619980E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    43  1.354425510406E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    44  1.353275619507E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    45  1.350379529953E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    46  1.305379529953E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    47  1.273839790344E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    48  1.249360469818E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    49  1.240352386475E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    50  1.223749107361E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    51  1.211737289429E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    52  1.210445053101E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    53  1.209589187622E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    54  1.208792930603E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    55  1.209222839355E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     7    56  1.215152153015E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    56  1.215152153015E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    57  1.219684139252E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    58  1.225289291382E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    59  1.229188568115E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    60  1.237894451141E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    61  1.249450641632E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    62  1.252450641632E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    63  1.245342750549E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     6    64  1.243096920013E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     5    64  1.243096920013E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     5    65  1.238310081482E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     5    66  1.221310081482E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     5    67  1.217999549866E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     4    67  1.217999549866E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     4    68  1.210671360016E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     4    69  1.182644680023E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     4    70  1.182644680023E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     3    70  1.182644680023E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     3    71  1.155693080902E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     3    72  1.155693080902E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     3    73  1.149564270020E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    73  1.149564270020E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    74  1.144409019470E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    75  1.132194030762E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    76  1.124788230896E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    77  1.120797508240E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    78  1.110087577820E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    79  1.104359802246E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    80  1.102545883179E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    81  1.098550819397E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    82  1.093355651855E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     1    82  1.089355651855E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     1    83  1.085150138855E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     1    84  1.075161956787E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     1    85  1.074548469543E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     1    86  1.071460342407E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     1    87  1.069697486877E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     1    88  1.069697486877E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    88  1.074100517273E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    89  1.072456459045E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    90  1.074482627869E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    91  1.053482627869E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    92  1.057152633667E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    93  1.051476577759E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    94  1.046681579590E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+     1     2    95  1.039615722656E+003      0 'BC_North_Kalahari'  # Data Set 6: Layer Row Column Shead IFACE boundname
+END PERIOD 
+
