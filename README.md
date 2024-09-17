@@ -20,7 +20,14 @@ The flow fraction (α<sub>i,j</sub>) from a cell i to the neighbouring cell j is
   <img src="https://github.com/MostafaGomaa93/CRR_concept/blob/main/images/CRR%20equation.png" />
 </p>
 
-where S<sub>i,j</sub> = ((elv<sub>i</sub>-elv<sub>j</sub>) ⁄ l<sub>ij</sub>) is the slope gradient between the centre cell i and j-cells surrounding the cell i (Figure 2), elv<sub>i</sub> and elv<sub>j</sub> are land surface elevations of cells i and j respectively, l<sub>ij</sub> is a distance between the centre of the cell i and the centre of one of j-cells surrounding i-cell, and m is the number of connected j cells to the cell i; note, the negative value of S<sub>i,j</sub> means that the cell i has a lower elevation than cell j and for such m-connection α<sub>i,j</sub> = 0 and no flow occurs between that i-j connection. β<sub>i,j</sub> is an additional flow factor used in model calibration, allowing for appropriate partitioning between evaporated water and direct runoff. The α<sub>i,j</sub> and β<sub>i,j</sub> range from 0 to 1.
+where
+- S<sub>i,j</sub> = ((elv<sub>i</sub>-elv<sub>j</sub>) ⁄ l<sub>ij</sub>) is the slope gradient between the centre cell i and j-cells surrounding the cell i (Figure 2)
+- elv<sub>i</sub> and elv<sub>j</sub> are land surface elevations of cells i and j respectively
+- l<sub>ij</sub> is a distance between the centre of the cell i and the centre of one of j-cells surrounding i-cell
+- m is the number of connected j cells to the cell i
+- Note: the negative value of S<sub>i,j</sub> means that the cell i has a lower elevation than cell j and for such m-connection α<sub>i,j</sub> = 0 and no flow occurs between that i-j connection.
+- β<sub>i,j</sub> is an additional flow factor used in model calibration, allowing for appropriate partitioning between evaporated water and direct runoff.
+- The α<sub>i,j</sub> and β<sub>i,j</sub> range from 0 to 1.
 
 Considering cell i surrounded by m-number of j-cells – so also the m-number of cell connections each described by S<sub>i,j</sub> – there are three possible flow scenarios:
 1) if among all m-connections around i-cell, only one S<sub>i,j</sub> is positive (the elevation of the i-cell is higher than the elevation of only one connected j cell), while all the other S<sub>i,j</sub> are negative (so they all will be considered as zero in the sum in the denominator of Equation 1), then α<sub>i,j</sub> = 1;
