@@ -1,0 +1,7 @@
+BEGIN options
+END options
+
+BEGIN continuous  FILEOUT  obs_simulated_MF_ET_4components.csv
+    OPEN/CLOSE  'ET_cells_id.txt'
+END continuous  FILEOUT  obs_simulated_MF_ET_4components.csv
+

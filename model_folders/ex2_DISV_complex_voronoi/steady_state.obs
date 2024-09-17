@@ -1,0 +1,32 @@
+BEGIN options
+END options
+
+BEGIN continuous  FILEOUT  obs_simulated_heads.csv
+  PGB0_lay1  head  2 724
+  PGJ0_lay1  head  1 296
+  PGJ0_lay2  head  2 296
+  PGJTM0_lay1  head  1 265
+  PGJTM0_lay2  head  2 265
+  PMU1_lay1  head  1 13515
+  PMU1_lay2  head  2 13515
+  PPN0_lay1  head  1 15606
+  PPN0_lay2  head  2 15606
+  PSD0_lay1  head  1 3227
+  PSD0_lay2  head  2 3227
+  PTB2_lay1  head  1 2477
+  PTB2_lay2  head  2 2477
+  PTM1_lay1  head  1 523
+  PTM1_lay2  head  2 523
+  PTM2_lay1  head  2 8701
+  W1_PCL7_lay1  head  1 13966
+  W1_PCL7_lay2  head  2 13966
+  W1_PN_lay1  head  1 3391
+  W1_PN_lay2  head  2 3391
+  W1_SD_lay1  head  1 3226
+  W1_SD_lay2  head  2 3226
+  W1_TB_lay1  head  1 9675
+  W1_TB_lay2  head  2 9675
+  W2_PCL7_lay1  head  1 16668
+  W2_PCL7_lay2  head  2 16668
+END continuous  FILEOUT  obs_simulated_heads.csv
+

@@ -1,0 +1,8 @@
+BEGIN options
+END options
+
+BEGIN continuous  FILEOUT  obs_simulated_streamflow.csv
+  FMZ_baseflow  sfr  allstreams
+  FMZ_ex_outflow  ext-outflow  4132
+END continuous  FILEOUT  obs_simulated_streamflow.csv
+
