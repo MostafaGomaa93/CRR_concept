@@ -1,0 +1,85 @@
+BEGIN options
+  SAVE_FLOWS
+  PRINT_FLOWS
+  BUDGET  FILEOUT  uzf_budget.uzf
+ #OBS6  FILEIN  transient.uzf.obs
+  MOVER
+  SIMULATE_ET
+  LINEAR_GWET
+  SIMULATE_GWSEEP
+  UNSAT_ETWC
+END options
+
+BEGIN dimensions
+  NUZFCELLS  12
+  NTRAILWAVES  8
+  NWAVESETS  500
+END dimensions
+
+BEGIN packagedata
+    OPEN/CLOSE  'transient.uzf_packagedata.txt'  FACTOR  1.0
+END packagedata
+
+BEGIN period 1
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_1.txt'    FACTOR  1
+END period 1
+    
+BEGIN period 2
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_2.txt'    FACTOR  1
+END period 2
+    
+BEGIN period 3
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_3.txt'    FACTOR  1
+END period 3
+    
+BEGIN period 4
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_4.txt'    FACTOR  1
+END period 4
+    
+BEGIN period 5
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_5.txt'    FACTOR  1
+END period 5
+    
+BEGIN period 6
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_6.txt'    FACTOR  1
+END period 6
+    
+BEGIN period 7
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_7.txt'    FACTOR  1
+END period 7
+    
+BEGIN period 8
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_8.txt'    FACTOR  1
+END period 8
+    
+BEGIN period 9
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_9.txt'    FACTOR  1
+END period 9
+    
+BEGIN period 10
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_10.txt'    FACTOR  1
+END period 10
+    
+BEGIN period 11
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_11.txt'    FACTOR  1
+END period 11
+    
+BEGIN period 12
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_12.txt'    FACTOR  1
+END period 12
+    
+BEGIN period 13
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_13.txt'    FACTOR  1
+END period 13
+    
+BEGIN period 14
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_14.txt'    FACTOR  1
+END period 14
+    
+BEGIN period 15
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_15.txt'    FACTOR  1
+END period 15
+    
+BEGIN period 16
+     OPEN/CLOSE  'uzf_periods/uzf_perioddata_reduced_16.txt'    FACTOR  1
+END period 16

@@ -1,0 +1,18 @@
+BEGIN options
+  SAVE_FLOWS
+END options
+
+BEGIN griddata
+  iconvert
+    CONSTANT  1
+  ss  LAYERED
+    CONSTANT 5.000e-06
+    CONSTANT 5.000e-06
+  sy  LAYERED
+    CONSTANT 5.000e-02
+    CONSTANT 5.000e-02
+END griddata
+
+BEGIN period  1
+  TRANSIENT
+END period  1
