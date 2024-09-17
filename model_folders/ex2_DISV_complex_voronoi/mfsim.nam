@@ -1,0 +1,18 @@
+BEGIN options
+END options
+
+BEGIN timing
+  TDIS6  steady_state.tdis
+END timing
+
+BEGIN models
+  gwf6  steady_state.nam  steady_state
+END models
+
+BEGIN exchanges
+END exchanges
+
+BEGIN solutiongroup  1
+  ims6  steady_state.ims  steady_state
+END solutiongroup  1
+
