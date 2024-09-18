@@ -7,7 +7,7 @@ The available water depends on the conceptualization of the study area, but main
 - The CRR is a multi-flow directional, which partitions the flow among the downslope neighbouring cells based on the land surface gradient of the connected cells. 
 - The flow partitioning among the 3 components (RE<sup>e</sup>, RE<sup>i</sup>, RE<sup>s</sup>) depends on many factors (Figure 1).
 	- RE<sup>i</sup> is controlled by the vertical saturated hydraulic conductivity of topsoil (K<sub>sat</sub>). RE<sup>i</sup> is the amount of RI+Exf<sub>gw</sub>, which is less than the K<sub>sat</sub>-P<sub>e</sub> term. This term determines the availability of soil to still infiltrate more water RE<sup>i</sup>) after the initial infiltration (I) into the subsurface from the effective precipitation (P<sub>e</sub>).
-- The remaining water (RI+Exf<sub>gw</sub>-RE<sup>i</sup>) is then partitioned between RE<sup>e</sup> and RE<sup>s</sup> through a flow partitioning factor (α<sub>i,j</sub>), which is the fraction of flow from cell i to the neighbouring j cell.
+	- The remaining water (RI+Exf<sub>gw</sub>-RE<sup>i</sup>) is then partitioned between RE<sup>e</sup> and RE<sup>s</sup> through a flow partitioning factor (α<sub>i,j</sub>), which is the fraction of flow from cell i to the neighbouring j cell.
 
 
 ![plot](https://github.com/MostafaGomaa93/CRR_concept/blob/main/images/CRR_concept.png)
